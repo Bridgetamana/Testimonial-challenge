@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', Tahoma, sans-serif;
+    color: white;
+}
+.main-container {  
+  padding: 20px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+.daniel {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./img/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+}
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+}
+.jeanette {
+    background-color: hsl(0, 0%, 81%);
+    color: black;
+}
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+}
+.kira {
+    background-color: hsl(0, 0%, 81%);
+    color: black;
+}
+.username {
+    
+}
+p {
+    opacity: 70%;
+}
+.img-container{
+    width: 30px;
+    border-radius: 50%;
+   }
